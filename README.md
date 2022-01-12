@@ -7,3 +7,5 @@ Enpoint created - /query. Example of usage:
 curl.exe -v http://localhost:8080/query?datasource=Google%20Ads"&"campaign=GDN_Retargeting
 
 Final version was planned to return JSON files, for now there are only strings.
+
+Data is stored in Spring Boot DB, parsed with usage of OpenCsv during application startup.
